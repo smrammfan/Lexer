@@ -3,18 +3,18 @@ This is lexer of subset of SIGNAL programming language.
 
   Після запуску програми, необхідно буде написати назву файла БЕЗ РОШИРЕННЯ, але роширення файла повино бути .sig. Після чого генерується вихідний файл, в якому записується таблиця лексем а також інформацію про помилки, якщо вони є.
 
-<b>Приклад тестового коду:</b><br>
-<br>
-PROGRAM TEST1;<br>
-LABEL 123, 321, 132;<br>
-BEGIN<br>
-	123: GOTO 321;<br>
-	LINK VAR1, 132;<br>
-	IN 321;<br>
-	ON 132;<br>
-	(*comment*)<br>
-END.<br>
-
+<b>Приклад тестового коду:</b>
+```
+PROGRAM TEST1;
+LABEL 123, 321, 132;
+BEGIN
+	123: GOTO 321;
+	LINK VAR1, 132;
+	IN 321;
+	ON 132;
+	(*comment*)
+END.
+```
 
 <b>Вихідний файл</b><br>Iнформація записується в виді(code      line    column                name)
 
