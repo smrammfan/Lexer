@@ -15,8 +15,8 @@ BEGIN
 	(*comment*)
 END.
 ```
-
-<b>Вихідний файл</b><br>Iнформація записується в виді(code      line    column                name)
+<b>Вихідний файл</b>
+Iнформація записується в виді(code      line    column                name)
 
        401         1         1             PROGRAM
       1001         1         9               TEST1
